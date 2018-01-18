@@ -1,0 +1,18 @@
+bg_image($url)
+  background-image : url($url)
+
+border-1px($position, $color)
+  position: relative
+  &:after
+    display: block
+    position : absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    content: ' '
+    if ($position == 'bottom')
+      border-bottom : 1px solid $color
+    if ($position == 'top')
+      border-top: 1px solid $color
+    if ($position == 'all')
+      border: 1px solid $color

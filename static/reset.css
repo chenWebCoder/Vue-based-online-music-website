@@ -1,0 +1,46 @@
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+body, html {
+  line-height: 1;
+  font-weight: 200;
+  /*font-family: PingFang SC,STHeitiSC-Light,Helvetica-Light,arial,sans-serif;*/
+  font-family: 'comic sana ms', sans-serif, "Microsoft YaHei";
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: hsla(0,0%,94%,.941);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/***************设置滚动条默认样式***************/
+
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+/* 滚动条的滑轨背景颜色 */
+::-webkit-scrollbar-track {
+  height: 100px;
+  background-color: rgba(0,0,0,0.2);
+}
+/* 滑块颜色 */
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color:rgba(200,200,200,0.2);
+}
+/* 滑轨两头的监听按钮颜色 */
+::-webkit-scrollbar-button {
+  height: 0;
+}
+/* 横向滚动条和纵向滚动条相交处尖角的颜色 */
+::-webkit-scrollbar-corner {
+  background-color: black;
+}
+

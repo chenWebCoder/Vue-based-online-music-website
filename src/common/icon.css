@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot?thf4pz');
+  src:  url('./fonts/icomoon.eot?thf4pz#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?thf4pz') format('truetype'),
+    url('./fonts/icomoon.woff?thf4pz') format('woff'),
+    url('./fonts/icomoon.svg?thf4pz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e900";
+}
+.icon-systemprompt:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-suspend:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-setup:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-play:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-pervious:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-other:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-next:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-coordinates:before {
+  content: "\e908";
+  color: #fff;
+}
