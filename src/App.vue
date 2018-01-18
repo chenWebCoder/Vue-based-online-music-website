@@ -92,7 +92,6 @@ export default {
   created () {
     this.headerList = ['我的', '音乐馆', '发现'];
     this.routerPath = ['/mymusic', '/musichall', '/musicfind'];
-//    console.info('欢迎使用 MKOnlinePlayer!\n当前版本： \n作者：mengkun(http://mkblog.cn)\n歌曲来源于各大音乐平台\nGithub：https://github.com/mengkunsoft/MKOnlineMusicPlayer');
   }
 };
 </script>
